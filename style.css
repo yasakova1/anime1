@@ -1,0 +1,57 @@
+body {  
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(182, 90, 90);
+  
+}
+.wrapper {
+overflow: hidden; 
+width: 100vw; 
+padding: 0 20px;
+display: flex;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+}
+.slide {
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px;
+    flex: 1;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat ;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+.slide1 {
+    background-image: url(/tunBlack/1.jpg);
+}
+._____2____ {
+    background-image: url(/tunBlack/2.png);
+}
+._____3____ {
+    background-image: url(/tunBlack/3.jpg);
+}
+._____4____ {
+    background-image: url(/tunBlack/4.png);
+}
+._____5____ {
+    background-image: url(/tunBlack/5.png);
+}
+.slide.active {
+    flex: 10;
+}
+.slide.active h1{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
