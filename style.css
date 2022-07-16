@@ -34,19 +34,19 @@ h1 {
     transition: all 500ms ease-in-out;
 }
 .slide1 {
-    background-image: url(/tunBlack/1.jpg);
+    background-image: url(https://raw.githubusercontent.com/yasakova1/anime1/main/tunBlack/1.jpg);
 }
 ._____2____ {
-    background-image: url(/tunBlack/2.png);
+    background-image: url(https://raw.githubusercontent.com/yasakova1/anime1/main/tunBlack/2.png);
 }
 ._____3____ {
-    background-image: url(/tunBlack/3.jpg);
+    background-image: url(https://raw.githubusercontent.com/yasakova1/anime1/main/tunBlack/3.jpg);
 }
 ._____4____ {
-    background-image: url(/tunBlack/4.png);
+    background-image: url(https://raw.githubusercontent.com/yasakova1/anime1/main/tunBlack/4.png);
 }
 ._____5____ {
-    background-image: url(/tunBlack/5.png);
+    background-image: url(https://raw.githubusercontent.com/yasakova1/anime1/main/tunBlack/5.png);
 }
 .slide.active {
     flex: 10;
